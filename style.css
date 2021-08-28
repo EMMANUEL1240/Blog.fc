@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(132, 198, 218);
+    background-blend-mode: multiply;
+    
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    position: sticky;
+    background-image: linear-gradient(to right,rgb(10, 9, 9), purple);
+}
+.navbar-brand img{
+    height: 95px;
+}
+.navbar .navbar-nav{
+    padding-top: 5px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+ul li a{
+    color: white !important;
+}
+.icon-bars{
+    color: #555;
+    font-size: 90px !important;
+}
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #fff;
+  }
+.d-flex .form-control{
+    margin-right: 10px;
+    border: 2px solid rgb(175, 137, 180);
+    border-radius: 15px;
+}
+.search-box{
+    padding-top: 14px;
+}
+.search{
+    margin-right: 30px;
+    height: 20px;
+    margin-top: 10px;
+}
+.login{
+    padding-top: 10px;
+    padding-left: -5px;
+    text-decoration: none !important;
+}
+a{
+    padding-right: 50px;
+    color: white !important;
+    font-weight: 600;
+    margin-bottom: -15px;
+    text-decoration: none;
+}
+.img-fluid{
+    margin-top: 2px;
+}
+#banner{
+    margin-top: 5px;
+}
+.carousel-inner{
+    margin-top: 2px;
+}
+#cards{
+    margin-top: 50px;
+}
+.height{
+    padding-top: 20px;
+}
+.img-fluid1{
+    padding-top: 20px;
+    height: 150px;
+    width: 200px;
+}
+hr{
+    background-color: white;
+    
+}
+.social-icon img{
+    width: 60px;
+    transition: 0.7s;
+    margin-right: -45px;
+    margin-top: 13px;
+ }
+ .social-icon a:hover img{
+    transform: translateY(-10px);
+ }     
+#footer{
+    background-image: linear-gradient(to right,rgb(10, 9, 9), purple);
+    
+}
+.text-centre{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    color: white;
+}
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
